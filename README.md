@@ -1,27 +1,14 @@
-# Calculate Your Age!
-This script prints your age in three different ways : 
-1. Years
-2. Months
-3. Days
+# PDF to TXT converter
+This script takes in a .pdf file and outputs a .txt file
+
+### Requirements
+	- Python
+	- PyPDF2 
 
 
-## Prerequisites
-You only need Python to run this script. You can visit [here](https://www.python.org/downloads/) to download Python.
-
-
-## How to run the script
-Running the script is really simple! Just open a terminal in the folder where your script is located and run the following command :
-
-    `python calculate.py`
-
-
-## Sample use of the script
-```
-$ python calculate.py 
-    input your name: XYZ
-    input your age: 33 
-    XYZ's age is 33 years or 406 months or 12328 days
-```
+### Steps
+In this program you have to provide the path for the pdf file that you want to convert into text and you may also provide the path where you want your output text file to be stored.
+By default the output files created will be stored in temp folder in the same directory.
 
 ## *Author Name*
 Mamatha Balla
